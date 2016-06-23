@@ -7,18 +7,25 @@
 	<div class="container-fluid">
     <form action="php/signup.php" method="post">
       <div class="form-group">
-        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="true">
+        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required="true">
       </div>
       <div class="form-group">
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="true">
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="true">
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required="true">
       </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="address" name="address" placeholder="Address 1" required="true">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="address2" name="address2" placeholder="Address 2">
+      </div>
+       
       <div class="checkbox">
         <label>
           <input type="checkbox" name="agree"> I agree to Terms &amp conditions
