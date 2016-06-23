@@ -1,3 +1,5 @@
 $(document).ready({
-  alert("Ready");
+  $("#signupForm").on("click",function(){
+    alert("Subitted");
+  });
 });
